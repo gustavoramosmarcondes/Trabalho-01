@@ -1,17 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desenvolvimento de página HTML</title>
+    <title>Integrante 01</title>
 </head>
+
 <body>
-    <H1>Trabalho 1 - Linguagem e Técnicas de Programação</H1>
-    <h2>Integrantes</h2>
-    <a href="Integrante01.html">Integrante 01</a>
-    <a href="Integrante02.html">Integrante 02</a>
-    <a href="Integrante03.html">Integrante 03</a>
-    <a href="Integrante04.html">Integrante 04</a>
-    <a href="Integrante05.html">Integrante 05</a>
+    <!-- DIV usada para deixar o código mais organizado -->
+    <div class="Apresentacao"> <!-- identificamos essa div utilizando o class = "Apresentação" --> 
+        <h1>Gabriel Asaf</h1>   <!--H1 utilizada para dar mais destaque ao nome --> 
+        <h2>Engenheiro De IA</h2>   <!-- H2 utilizado para deixar o cargo como subtitulo dando um destaque de grau 2 -->
+        <h3>Resumo profissional</h3> <!-- H3 utilizado para começar um parágrafo (título para o paragrafo)-->    
+
+        <!--A tag <p> utilizamos para iniciar nosso parágrafo explicando sobre o resumo profissional.-->
+        <p> Estou iniciando minha carreira na área de Inteligência Artificial e atuo há
+            três meses com o desenvolvimento de soluções utilizando IA, automações e
+            modelos de linguagem. Busco desenvolver sistemas que utilizem essas
+            tecnologias para otimizar processos e solucionar problemas.</p>
+
+        <h3>Formação acadêmica</h3> <!-- Tag H3 utilizada para criar o subtitulo da lista. -->
+
+        <!--  Abrimos a tag <ul> para começar uma lista -->
+        <ul>
+            <li>Graduação em Engenharia de Software - Unicesumar (2026-2030)</li> <!-- A tag <li> foi usado para identificar os "itens" da lista. -->
+            <li>Técnico em Desenvolvimento de Sistemas - SENAI (2022-2023)</li>
+        </ul>
+    </div>
+
+    <br> <!-- Br utilizado para pular a linha -->
+
+    <!-- Div para organizar a parte de "habilidades" -->
+    <div class="Habilidades"> <!-- Identificamos essa div utilizando class="HABILIDADES" -->
+        <h3>Habilidades técnicas</h3> <!-- Titúlo da lista -->
+        <ul> <!-- tag utilizada para criação da lista habilidades técnicas-->
+            <li>Java</li> <!-- <li> utilizado para identificar os itens da lista -->
+            <li>C#</li>
+            <li>Linguagem Orientada a Objetos</li>
+            <li>Prompt Engineering</li>
+            <li>Automação</li>
+            <li>LLM</li>
+        </ul>
+    </div>
+
+    <br> <!-- Quebra de linha -->
+
+    <!-- Div identificado com class = "Experiencia" -->
+    <div class="Experiencia">  
+        <h3>Experiência profissional</h3><!-- Título da tabela de experiência profissional -->
+        <table border="1"> <!-- Table, faz uma tabela com a borda de pixel 1 -->
+
+            <thead> <!-- Thead é o topo da tabela (forma o cabeçalho da tabela)  -->
+                <tr> <!-- Tag utilizada para estabelecer as linhas horizontal dos itens no th abaixo. --> 
+                    <th>Empresa</th> <!-- Tag <th> utilizada para definir a célula de titulo (delimita cada titulo com linhas.)--> 
+                    <th>Cargo</th>
+                    <th>Período</th>
+                </tr>
+            </thead>
+
+            <tbody> <!--  Body é o meio da tabela o "corpo" -->
+                <tr>
+                    <td>Fluxiom</td> <!-- define uma célula comum de dados dentro de uma linha -->
+                    <td>Engenheiro de IA</td>
+                    <td>junho de 2026 - Atualmente</td>
+                </tr>
+
+                <tr>
+                    <td>Senai</td>
+                    <td>Técnico em Desenvolvimento de Sistemas</td>
+                    <td>2022 - 2023</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot> <!-- Foot é o rodape da tabela -->
+                <tr>
+                    <td colspan="3">Experiências e formação profissional.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <br>
+
+    <!-- Div utiliza para organizar a parte de contatos da apresentação. Identificamos ela com class = "Contatos" -->
+    <div class="Contatos">
+        <h3>Contatos</h3>
+        <p><strong>Email: </strong> <!-- Utilzado o strong para deixar essa parte específica em negrito  -->
+            <a href="mailto:gustavo.ramos.marcondes@gmail.com">gustavo.ramos.marcondes@gmail.com</a> <!-- tag <a> utilizada para criar um link com o que esta dentro dela. É atribuido o valor desse link (onde sera direcionado se clicar) com href -->
+        </p> <!-- Strong serve para deixar o texto em negrito -->
+        <p><strong>Github: </strong> <a href="https://github.com/gustavoramosmarcondes" target="_blank">gustavo
+                ramosmarcondes</a></p> <!-- target blank é  utilizado para o link abrir em outra aba no navegador quando clicado, em vez de substituir a página atual. -->
+    </div>
+
+    <br>
+
+    <!--  Div utilizada para dividir e organizar a parte de "Lugares". Identificamos essa div  com class="lugares"  -->
+    <div class="Lugares">
+        <h3>Lugares na onde foi criado a inteligencia artificial</h3>
+        <ol> <!-- Lista ordenada ol -->
+            <li>Dartmouth</li>
+            <img src="Darrtmouth.jpg" alt="dartmouth" width="800"> <!-- img "link" para anexar imagem -->
+            <p>Onde o termo "Inteligência Artificial" foi criado por John McCarthy durante um projeto de verão em 1956</p>
+            <br>
+
+            <li>Carnegie</li>
+            <img src="Carnegie.jpg" alt="carnegie" width="800" height="500">
+            <p>Onde Allen Newell e Herbert Simon criaram o primeiro laboratório de IA e desenvolveram o Logic Theorist em 1956.</p>
+
+            <br>
+
+            <li>Massachusetts</li>
+            <img src="Massachusetts.jpg" alt="Massachusetts" width="800">
+            <p> Onde Joseph Weizenbaum criou o programa ELIZA em 1966 e onde ocorreram importantes pesquisas pioneiras de computação</p>
+            <br>
+
+            
+        </ol>
+    </div>
+
+    <br>
+
+    <!--  Div utilizada para dividir e organizar a parte de "planejamento". Identificamos essa div  com class="Planejamento"  -->
+    <div class="Planejamento">
+        <h3>Planeje os lugares que você pretende visitar, para conhecer mais sobre Inteligência Artificial?</h3>
+        <form action="https://www.google.com/search" method="get"> <!-- form serve para criar um formulário, e o "action" é onde o formulário será enviado -->
+            <!-- Label permite o usuário escrever a informação solicitadas.-->
+            <label for="destino">Destino:</label> 
+            <input type="text" id="destino" name="q" placeholder="Digite o destino dos seus sonhos">
+            <!-- type tipo do input, id identificador, name nome do campo, placeholder texto de ajuda -->
+
+            <br>
+
+            <label for="data">Data de viagem:</label> <!-- For serve para associar o label ao input -->
+            <input type="date" id="data" name="data">
+
+            <br>
+            <input type="submit" value="Pesquisar"> <!-- Value é o texto exibido no botão -->
+        </form>
+    </div>
+
 </body>
+
 </html>
