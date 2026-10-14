@@ -13,3 +13,13 @@ Componentes:
 Data: 03 de Novembro de 2026
 Descritivo: Faca um programa que exiba a tabuada do 5, de 1 a 10.
 *******************************************************************************/
+
+$num = 1;
+
+while($num <=10 ){
+    $mult = 5 * $num;
+    echo $num. " X 5 = ". $mult. PHP_EOL;
+    $num++;
+};
+
+?>
