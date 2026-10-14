@@ -1,0 +1,59 @@
+LISTA DE EXERCÍCIOS
+
+Estruturas de Repetição (for, while, do-while)
+1. FOR: [ALAN] Escreva um programa que use for para imprimir os números de 1 a 10.
+2. FOR: [VICTOR] Crie um programa que use for para imprimir os números pares de 2 a 20.
+3. FOR: [MARCIO] Faça um programa que exiba a tabuada do 5, de 1 a 10.
+4. FOR: [GABRIEL] Escreva um programa que use for para contar de 10 a 1 em ordem decrescente.
+5. FOR: [GUSTAVO] Crie um programa que calcule e imprima a soma dos números de 1 a 100.
+6. WHILE: [ALAN] Escreva um programa que use while para imprimir os números de 1 a 10.
+7. WHILE: [GUSTAVO] Crie um programa que peça ao usuário para adivinhar um número (ex: 7) e continue pedindo até que ele acerte.
+8. WHILE: [VICTOR] Faça um programa que imprima os múltiplos de 3, de 3 a 30.
+9. WHILE: [MARCIO] Escreva um programa que leia números do usuário até que ele digite 0 e, no final, mostre a soma de todos os números digitados.
+10. WHILE: [GABRIEL] Crie um programa que conte quantos dígitos tem um número inteiro fornecido pelo usuário.
+11. DO-WHILE: [ALAN] Escreva um programa que use do-while para imprimir os números de 1 a 10.
+12. DO-WHILE: [VICTOR] Crie um menu de opções (1. Iniciar, 2. Parar, 3. Sair) e use do-while para mostrar o menu até que o usuário escolha "Sair".
+13. DO-WHILE: [MARCIO] Faça um programa que solicite uma senha ao usuário. O programa só deve continuar quando a senha correta ("1234") for digitada.
+14. DO-WHILE: [GABRIEL] Escreva um programa que leia um número e o imprima. O programa deve repetir até que o número lido seja negativo.
+15. FOR/IF: [GUSTAVO] Crie um programa para encontrar e imprimir todos os números primos entre 1 e 50.
+
+Estruturas de Dados (Arrays Homogêneos e Heterogêneos) e foreach
+16. Array Homogêneo: [ALAN] Crie um array com 5 nomes de cidades.
+17. Array Homogêneo: [VICTOR] Crie um array com 10 números inteiros.
+18. FOREACH: [MARCIO] Usando o array de cidades do exercício 16, imprima cada cidade em uma nova linha usando foreach.
+19. FOREACH: [GABRIEL] Usando o array de números do exercício 17, calcule e imprima a soma de todos os números com foreach.
+20. Array/FOR: [GUSTAVO] Crie um array com os 7 dias da semana e imprima-os usando um laço for.
+21. Array Heterogêneo (Associativo): [ALAN] Crie um array associativo para armazenar os dados de um aluno (nome, idade, curso).
+22. Array Associativo/FOREACH: [VICTOR] Usando o array do exercício 21, imprima cada dado no formato "chave: valor".
+23. Array Associativo: [MARCIO] Crie um array de produtos, onde cada produto é um array associativo com "nome" e "preço".
+24. FOREACH Aninhado: [GABRIEL] Usando o array de produtos do exercício 23, imprima o nome e o preço de cada produto.
+25. Array/Funções Nativas: [GABRIEL] Crie um array de números e use a função count() para mostrar quantos elements ele possui.
+26. Array/Funções Nativas: [VICTOR] Dado o array, ordene-o em ordem crescente usando sort().
+27. Array Associativo: [MARCIO] Crie um array com as notas de um aluno em 4 disciplinas e calcule a média.
+28. Array/Busca: [GABRIEL] Crie um array de frutas. Escreva um código que verifique se a fruta "Maçã" existe no array.
+29. FOREACH/IF: [ALAN] Dado um array de números, imprima apenas os números maiores que 20.
+30. Array Multidimensional: [GUSTAVO] Crie uma matriz 3x3 (array de arrays) e preencha-a com números. Imprima o elemento da segunda linha e terceira coluna.
+
+Procedimentos (Funções sem Retorno)
+31. Procedimento: [ALAN] Crie um procedimento chamado saudacao que imprima "Bem-vindo ao PHP!".
+32. Procedimento com Parâmetro: [VICTOR] Crie um procedimento saudacaoUsuario que receba um nome como parâmetro e imprima "Olá, [nome]!".
+33. Procedimento: [GUSTAVO] Crie um procedimento mostrarTabuada que receba um número e imprima sua tabuada de 1 a 10.
+34. Procedimento: [MARCIO] Elabore um procedimento verificarParImpar que receba um número e imprima se ele é "Par" ou "Ímpar".
+35. Procedimento com Array: [GABRIEL] Crie um procedimento imprimirArray que receba um array e imprima todos os seus elementos.
+36. Procedimento: [ALAN] Crie um procedimento desenharLinha que imprima uma linha de 20 hifens --------------------.
+37. Procedimento com Múltiplos Parâmetros: [VICTOR] Crie um procedimento mostrarDados que receba nome, idade e cidade e os imprima de forma organizada.
+38. Procedimento: [MARCIO] Elabore um procedimento chamado calcularMediaAluno que receba duas notas e imprima a média e se o aluno foi "Aprovado" (média >= 7) ou "Reprovado".
+39. Procedimento: [GABRIEL] Crie um procedimento contagemRegressiva que receba um número e imprima uma contagem regressiva a partir dele até 0.
+40. Procedimento: [GUSTAVO] Faça um procedimento que receba um array associativo de um carro (marca, modelo, ano) e imprima seus dados.
+
+Funções (com Retorno)
+41. Função: [ALAN] Crie uma função chamada somar que receba dois números e retorne a soma deles.
+42. Função: [VICTOR] Crie uma função maiorNumero que receba dois números e retorne o maior entre eles.
+43. Função: [MARCIO] Elabore uma função converterParaMaiusculas que receba uma string e a retorne em letras maiúsculas.
+44. Função: [GABRIEL] Escreva uma função calcularAreaRetangulo que receba a largura e a altura e retorne a área.
+45. Função com Array: [ALAN] Crie uma função obterPrimeiroElemento que receba um array e retorne seu primeiro elemento.
+46. Função: [GUSTAVO] Elabore uma função ehPrimo que receba um número e retorne true se ele for primo e false caso contrário.
+47. Função com String: [VICTOR] Crie uma função contarVogais que receba uma string e retorne o número de vogais.
+48. Função: [GUSTAVO] Escreva uma função fatorial que receba um número e retorne seu fatorial.
+49. Função: [MARCIO] Faça uma função gerarArrayPares que receba um número n e retorne um array com todos os números pares de 0 até n.
+50. Função: [GUSTAVO] Crie uma função inverterString que receba uma string e a retorne invertida, sem usar a função strrev().
