@@ -14,3 +14,17 @@
  Descritivo: Crie um programa para encontrar e imprimir todos os numeros primos entre 1 e 50.
 *******************************************************************************/
 
+
+for($num = 1; $num <= 50 ; $num++){
+    $divisores = 0;
+
+    for ($i = 1 ; $i <= $num; $i++){
+        if ($num % $i == 0){
+            $divisores ++;
+        }
+    }
+    if ($divisores == 2){
+        echo $num . ", ";
+    }
+
+}
