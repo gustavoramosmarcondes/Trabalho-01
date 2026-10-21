@@ -14,3 +14,13 @@
  Descritivo: Crie um procedimento mostrarTabuada que receba um numero e imprima sua tabuada de 1 a 10.
 *******************************************************************************/
 
+$numero = readline("Digite um número: ");
+
+function mostrarTabuada($numero){
+    for($i = 1; $i <= 10; $i++){
+        $resultado = $numero * $i;
+        echo $numero . " X " . $i . " = " . $resultado ."\n";
+    }
+}
+
+mostrarTabuada($numero);
