@@ -14,3 +14,16 @@
  Descritivo: Escreva uma funcao fatorial que receba um numero e retorne seu fatorial.
 *******************************************************************************/
 
+$numero = readline("Digite um número: ");
+
+function fatorial($num){
+    $fatorial_resultado = 1;
+    for ($i = $num; $i >= 1; $i--) {
+        $fatorial_resultado *= $i;
+    }
+    return $fatorial_resultado;
+}
+
+$resultado = fatorial($numero);
+
+echo $resultado;

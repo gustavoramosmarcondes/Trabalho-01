@@ -14,3 +14,17 @@
  Descritivo: Crie uma funcao inverterString que receba uma string e a retorne invertida, sem usar a funcao strrev().
 *******************************************************************************/
 
+$string = readline("Digite um texto: ");
+
+function inverterString($stri) {
+    $invertida = "";
+    $tamanho = strlen($stri);
+    for($i = $tamanho - 1; $i >= 0; $i--){  /* - 1 pq strlen devolve 1 caractere a mais um tamanho a mais pq ele começa pelo 1, e o indice começa por 0*/
+        $invertida .= $stri[$i]; /* junta as variaveis no que ja estava guardado*/
+    }
+    return $invertida;
+}
+
+$resultado = inverterString($string);
+
+echo "String invertida: " . $resultado . "\n";
