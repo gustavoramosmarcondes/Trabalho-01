@@ -14,3 +14,8 @@
  Descritivo: Crie um array com os 7 dias da semana e imprima-os usando um laco for.
 *******************************************************************************/
 
+$dias = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado"];
+
+for($i = 0; $i < count($dias); $i++){
+    echo $dias[$i] . "\n";
+}

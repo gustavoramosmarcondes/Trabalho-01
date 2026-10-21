@@ -14,3 +14,10 @@
  Descritivo: Crie uma matriz 3x3 (array de arrays) e preencha-a com numeros. Imprima o elemento da segunda linha e terceira coluna.
 *******************************************************************************/
 
+$matriz = [[01, 10, 20],
+          [02, 30, 40],
+          [03, 40, 50]
+];
+
+
+echo $matriz[1][2] . "\n";
