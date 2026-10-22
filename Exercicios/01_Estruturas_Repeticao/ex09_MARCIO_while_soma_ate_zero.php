@@ -14,3 +14,15 @@
  Descritivo: Escreva um programa que leia numeros do usuario ate que ele digite 0 e, no final, mostre a soma de todos os numeros digitados.
 *******************************************************************************/
 
+//Loop que soma todos os números digitados pelo usuário e mostra o valor no final.
+//Loop para quando o usuário digitar 0.
+$soma = 0;
+$numUsu = '';
+
+while($numUsu !=0 ){
+    $numUsu = readline('Digite um número (digite 0 para encerrar):');
+    $soma += $numUsu;
+}
+
+echo 'A soma de todos os números digitados é de: ', $soma;
+?>
