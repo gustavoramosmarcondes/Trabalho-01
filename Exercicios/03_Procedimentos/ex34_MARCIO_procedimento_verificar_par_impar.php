@@ -13,11 +13,18 @@
  Data: 03 de Novembro de 2026
  Descritivo: Elabore um procedimento verificarParImpar que receba um numero e imprima se ele e Par ou Impar.
 *******************************************************************************/
-$num = readline('Digite um número para ver se é par ou ímpar:');
 
-if ($num%2 == 0) {
-    echo "O número ", $num ," é par";
-}else{
-    echo "O número ", $num ," é ímpar";
+//: void indica que a função não retorna nenhum valor. Ela apenas executa uma ação, nesse caso, imprime se é ímpar ou par.
+//Se caso a função fosse retornar algum valor, usaria-se return no final dela.
+function verificarParImpar(int $num): void{
+    
+    if ($num % 2 === 0) {
+        echo "O número {$num} é par.";
+    } else {
+        echo "O número {$num} é ímpar.";
+    }
 }
+
+$numero = (int) readline('Digite um número para verificar se é par ou ímpar: ');
+verificarParImpar($numero);
 ?>
