@@ -13,4 +13,11 @@
  Data: 03 de Novembro de 2026
  Descritivo: Elabore um procedimento verificarParImpar que receba um numero e imprima se ele e Par ou Impar.
 *******************************************************************************/
+$num = readline('Digite um número para ver se é par ou ímpar:');
 
+if ($num%2 == 0) {
+    echo "O número ", $num ," é par";
+}else{
+    echo "O número ", $num ," é ímpar";
+}
+?>
