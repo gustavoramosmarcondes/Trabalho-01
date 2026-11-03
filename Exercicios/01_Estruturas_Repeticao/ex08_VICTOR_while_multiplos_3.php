@@ -13,4 +13,11 @@
  Data: 03 de Novembro de 2026
  Descritivo: Faca um programa que imprima os multiplos de 3, de 3 a 30.
 *******************************************************************************/
+<?php
+$i = 3;
 
+while ($i <= 30) {
+    echo $i . "<br>";
+    $i += 3;
+}
+?>
