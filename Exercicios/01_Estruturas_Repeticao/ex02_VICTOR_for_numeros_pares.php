@@ -13,4 +13,8 @@
  Data: 03 de Novembro de 2026
  Descritivo: Crie um programa que use for para imprimir os numeros pares de 2 a 20.
 *******************************************************************************/
-
+<?php
+for ($i = 2; $i <= 20; $i += 2) {
+    echo $i . "<br>";
+}
+?>
