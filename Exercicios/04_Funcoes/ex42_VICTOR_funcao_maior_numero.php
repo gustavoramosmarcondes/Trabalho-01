@@ -13,4 +13,14 @@
  Data: 03 de Novembro de 2026
  Descritivo: Crie uma funcao maiorNumero que receba dois numeros e retorne o maior entre eles.
 *******************************************************************************/
+<?php
+function maiorNumero($num1, $num2) {
+    if ($num1 > $num2) {
+        return $num1;
+    } else {
+        return $num2;
+    }
+}
 
+echo maiorNumero(15, 20);
+?>
