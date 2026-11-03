@@ -13,4 +13,10 @@
  Data: 03 de Novembro de 2026
  Descritivo: Crie um procedimento saudacaoUsuario que receba um nome como parametro e imprima Ola, [nome]!
 *******************************************************************************/
+<?php
+function saudacaoUsuario($nome) {
+    echo "Olá, " . $nome . "!";
+}
 
+saudacaoUsuario("Victor");
+?>
