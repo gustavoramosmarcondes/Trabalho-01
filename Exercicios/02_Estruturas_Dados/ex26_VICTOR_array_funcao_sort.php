@@ -13,4 +13,10 @@
  Data: 03 de Novembro de 2026
  Descritivo: Dado o array [10, 2, 5, 8, 1], ordene-o em ordem crescente usando sort().
 *******************************************************************************/
+<?php
+$numeros = [10, 2, 5, 8, 1];
 
+sort($numeros);
+
+print_r($numeros);
+?>
