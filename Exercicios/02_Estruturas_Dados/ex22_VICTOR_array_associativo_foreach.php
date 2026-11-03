@@ -13,4 +13,14 @@
  Data: 03 de Novembro de 2026
  Descritivo: Usando o array do exercicio 21, imprima cada dado no formato chave: valor.
 *******************************************************************************/
+<?php
+$aluno = [
+    "nome" => "Victor",
+    "idade" => 18,
+    "curso" => "Engenharia de Software"
+];
 
+foreach ($aluno as $chave => $valor) {
+    echo $chave . ": " . $valor . "<br>";
+}
+?>
