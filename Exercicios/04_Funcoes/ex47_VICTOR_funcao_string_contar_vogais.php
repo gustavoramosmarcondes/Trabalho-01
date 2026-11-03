@@ -13,4 +13,19 @@
  Data: 03 de Novembro de 2026
  Descritivo: Crie uma funcao contarVogais que receba uma string e retorne o numero de vogais.
 *******************************************************************************/
+<?php
+function contarVogais($texto) {
+    $vogais = 0;
+    $texto = strtolower($texto);
 
+    for ($i = 0; $i < strlen($texto); $i++) {
+        if (strpos("aeiou", $texto[$i]) !== false) {
+            $vogais++;
+        }
+    }
+
+    return $vogais;
+}
+
+echo contarVogais("Engenharia de Software");
+?>
