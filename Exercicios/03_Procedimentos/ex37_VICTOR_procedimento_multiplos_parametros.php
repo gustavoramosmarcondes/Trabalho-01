@@ -13,4 +13,12 @@
  Data: 03 de Novembro de 2026
  Descritivo: Crie um procedimento mostrarDados que receba nome, idade e cidade e os imprima de forma organizada.
 *******************************************************************************/
+<?php
+function mostrarDados($nome, $idade, $cidade) {
+    echo "Nome: " . $nome . "<br>";
+    echo "Idade: " . $idade . "<br>";
+    echo "Cidade: " . $cidade . "<br>";
+}
 
+mostrarDados("Victor", 18, "São José dos Pinhais");
+?>
