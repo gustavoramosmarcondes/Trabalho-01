@@ -14,3 +14,12 @@
  Descritivo: Crie um array de frutas. Escreva um codigo que verifique se a fruta Maca existe no array.
 *******************************************************************************/
 
+$frutas = ["Banana", "Maca", "Uva", "Laranja", "Pera"];
+
+if (in_array("Maca", $frutas)) {
+    echo "A fruta 'Maca' existe no array!";
+} else {
+    echo "A fruta 'Maca' não foi encontrada no array.";
+}
+//Este código verifica se a palavra "Maca" está presente dentro do array de frutas utilizando a função in_array().
+?>
