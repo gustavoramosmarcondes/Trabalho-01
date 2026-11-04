@@ -20,3 +20,4 @@ $cidade = "";
 foreach ($cidades as $cidade) {
     echo $cidade . PHP_EOL;
 }
+?>

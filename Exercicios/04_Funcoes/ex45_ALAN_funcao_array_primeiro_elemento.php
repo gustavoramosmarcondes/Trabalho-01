@@ -27,3 +27,4 @@ function obterPrimeiroElemento($itens)
 
 $frutas = ["maçã", "banana", "laranja"];
 echo "Primeiro elemento: " . obterPrimeiroElemento($frutas) . PHP_EOL;
+?>

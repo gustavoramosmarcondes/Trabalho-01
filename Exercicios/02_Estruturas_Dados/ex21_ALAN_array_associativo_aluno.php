@@ -25,3 +25,4 @@ $valor = "";
 foreach ($aluno as $campo => $valor) {
     echo ucfirst($campo) . ": " . $valor . PHP_EOL;
 }
+?>

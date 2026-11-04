@@ -22,3 +22,4 @@ foreach ($numeros as $numero) {
         echo $numero . PHP_EOL;
     }
 }
+?>

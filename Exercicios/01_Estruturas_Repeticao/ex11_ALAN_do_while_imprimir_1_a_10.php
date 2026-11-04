@@ -19,3 +19,4 @@ do {
     echo $numero . PHP_EOL;
     $numero++;
 } while ($numero <= 10);
+?>
