@@ -14,3 +14,12 @@
  Descritivo: Crie um procedimento contagemRegressiva que receba um numero e imprima uma contagem regressiva a partir dele ate 0.
 *******************************************************************************/
 
+function contagemRegressiva($numero) {
+    for ($i = $numero; $i >= 0; $i--) {
+        echo $i . "<br>";
+    }
+}
+
+contagemRegressiva(5);
+//Este código define uma função que recebe um número e utiliza um loop for para exibir a contagem regressiva até 0.
+?>
