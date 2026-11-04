@@ -14,3 +14,8 @@
  Descritivo: Escreva um programa que use for para contar de 10 a 1 em ordem decrescente.
 *******************************************************************************/
 
+for ($i = 10; $i >= 1; $i--) {
+    echo $i . "<br>";
+}
+//Este código usa um loop for para exibir na tela uma contagem regressiva de 10 até 1.
+?>
