@@ -14,3 +14,11 @@
  Descritivo: Escreva um programa que leia um numero e o imprima. O programa deve repetir ate que o numero lido seja negativo.
 *******************************************************************************/
 
+$numero = 5; 
+
+do {
+    echo "Número lido: $numero <br>";
+    $numero--;
+} while ($numero >= 0);
+//Este código repete a exibição de um número em loop até que o valor lido se torne menor que zero (negativo).
+?>
