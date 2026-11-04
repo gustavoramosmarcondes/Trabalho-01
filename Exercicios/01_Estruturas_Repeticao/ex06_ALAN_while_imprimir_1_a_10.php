@@ -14,3 +14,8 @@
  Descritivo: Escreva um programa que use while para imprimir os numeros de 1 a 10.
 *******************************************************************************/
 
+$numero = 1;
+while ($numero <= 10) {
+    echo $numero . PHP_EOL;
+    $numero++;
+}

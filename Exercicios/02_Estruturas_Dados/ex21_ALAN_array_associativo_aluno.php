@@ -14,3 +14,14 @@
  Descritivo: Crie um array associativo para armazenar os dados de um aluno (nome, idade, curso).
 *******************************************************************************/
 
+$aluno = [
+    "nome" => "Alan Cristian dos Santos Costa",
+    "idade" => 20,
+    "curso" => "Engenharia de Software",
+];
+$campo = "";
+$valor = "";
+
+foreach ($aluno as $campo => $valor) {
+    echo ucfirst($campo) . ": " . $valor . PHP_EOL;
+}

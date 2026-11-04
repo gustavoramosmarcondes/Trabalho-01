@@ -14,3 +14,6 @@
  Descritivo: Escreva um programa que use for para imprimir os numeros de 1 a 10.
 *******************************************************************************/
 
+for ($numero = 1; $numero <= 10; $numero++) {
+    echo $numero . PHP_EOL;
+}

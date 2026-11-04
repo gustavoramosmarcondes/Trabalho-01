@@ -14,3 +14,9 @@
  Descritivo: Crie um procedimento desenharLinha que imprima uma linha de 20 hifens.
 *******************************************************************************/
 
+function desenharLinha()
+{
+    echo str_repeat("-", 20) . PHP_EOL;
+}
+
+desenharLinha();

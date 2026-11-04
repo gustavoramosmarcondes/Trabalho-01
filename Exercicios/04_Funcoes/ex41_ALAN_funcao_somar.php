@@ -14,3 +14,11 @@
  Descritivo: Crie uma funcao chamada somar que receba dois numeros e retorne a soma deles.
 *******************************************************************************/
 
+function somar($numero1, $numero2)
+{
+    return $numero1 + $numero2;
+}
+
+$numero1 = 5;
+$numero2 = 3;
+echo "Soma: " . somar($numero1, $numero2) . PHP_EOL;

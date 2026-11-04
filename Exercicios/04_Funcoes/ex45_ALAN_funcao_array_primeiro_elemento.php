@@ -14,3 +14,16 @@
  Descritivo: Crie uma funcao obterPrimeiroElemento que receba um array e retorne seu primeiro elemento.
 *******************************************************************************/
 
+function obterPrimeiroElemento($itens)
+{
+    $primeiroElemento = null;
+
+    if (isset($itens[0])) {
+        $primeiroElemento = $itens[0];
+    }
+
+    return $primeiroElemento;
+}
+
+$frutas = ["maçã", "banana", "laranja"];
+echo "Primeiro elemento: " . obterPrimeiroElemento($frutas) . PHP_EOL;

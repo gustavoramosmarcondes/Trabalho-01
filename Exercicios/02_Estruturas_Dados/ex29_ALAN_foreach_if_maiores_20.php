@@ -14,3 +14,11 @@
  Descritivo: Dado um array de numeros [12, 5, 23, 18, 9, 45], imprima apenas os numeros maiores que 20.
 *******************************************************************************/
 
+$numeros = [12, 5, 23, 18, 9, 45];
+$numero = 0;
+
+foreach ($numeros as $numero) {
+    if ($numero > 20) {
+        echo $numero . PHP_EOL;
+    }
+}

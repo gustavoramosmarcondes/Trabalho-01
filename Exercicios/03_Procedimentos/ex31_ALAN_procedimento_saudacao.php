@@ -14,3 +14,9 @@
  Descritivo: Crie um procedimento chamado saudacao que imprima Bem-vindo ao PHP!
 *******************************************************************************/
 
+function saudacao()
+{
+    echo "Bem-vindo ao PHP!" . PHP_EOL;
+}
+
+saudacao();
