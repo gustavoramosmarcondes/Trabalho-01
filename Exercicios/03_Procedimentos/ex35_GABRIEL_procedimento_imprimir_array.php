@@ -14,3 +14,13 @@
  Descritivo: Crie um procedimento imprimirArray que receba um array e imprima todos os seus elementos.
 *******************************************************************************/
 
+function imprimirArray($array) {
+    foreach ($array as $elemento) {
+        echo $elemento . "<br>";
+    }
+}
+
+$meuArray = [10, 20, 30, 40, 50];
+imprimirArray($meuArray);
+//Este código define uma função que percorre qualquer array recebido e imprime cada um dos seus elementos na tela.
+?>
