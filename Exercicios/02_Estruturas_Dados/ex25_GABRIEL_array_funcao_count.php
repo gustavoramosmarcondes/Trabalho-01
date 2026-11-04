@@ -14,3 +14,9 @@
  Descritivo: Crie um array de numeros e use a funcao count() para mostrar quantos elementos ele possui.
 *******************************************************************************/
 
+$numeros = [10, 20, 30, 40, 50, 60];
+$quantidade = count($numeros);
+
+echo "O array possui $quantidade elementos.";
+//Este código cria um array de números e utiliza a função count() para exibir a quantidade total de elementos presentes nele.
+?>
