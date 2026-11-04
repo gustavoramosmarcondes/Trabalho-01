@@ -22,4 +22,5 @@ foreach ($numeros as $numero) {
         echo $numero . PHP_EOL;
     }
 }
+// Resumo: Foram utilizados um array, o laço foreach e a condição if para imprimir números maiores que 20.
 ?>

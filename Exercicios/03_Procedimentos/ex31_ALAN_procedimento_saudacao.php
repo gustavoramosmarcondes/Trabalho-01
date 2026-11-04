@@ -20,4 +20,5 @@ function saudacao()
 }
 
 saudacao();
+// Resumo: Foi criado e chamado o procedimento saudacao para imprimir uma mensagem de boas-vindas.
 ?>

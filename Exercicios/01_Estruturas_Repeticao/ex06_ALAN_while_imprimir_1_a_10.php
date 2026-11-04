@@ -19,4 +19,5 @@ while ($numero <= 10) {
     echo $numero . PHP_EOL;
     $numero++;
 }
+// Resumo: Foi utilizada uma variável de controle e o laço while para imprimir os números de 1 a 10.
 ?>

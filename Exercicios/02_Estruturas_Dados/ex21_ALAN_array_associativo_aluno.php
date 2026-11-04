@@ -25,4 +25,5 @@ $valor = "";
 foreach ($aluno as $campo => $valor) {
     echo ucfirst($campo) . ": " . $valor . PHP_EOL;
 }
+// Resumo: Foi utilizado um array associativo para guardar nome, idade e curso, exibidos com foreach.
 ?>

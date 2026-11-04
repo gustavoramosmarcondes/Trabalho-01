@@ -20,4 +20,5 @@ function desenharLinha()
 }
 
 desenharLinha();
+// Resumo: Foi criado e chamado o procedimento desenharLinha, que usa str_repeat para imprimir 20 hifens.
 ?>

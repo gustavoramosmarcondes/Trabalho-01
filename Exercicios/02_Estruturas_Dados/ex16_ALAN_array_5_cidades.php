@@ -13,11 +13,5 @@
  Data: 03 de Novembro de 2026
  Descritivo: Crie um array com 5 nomes de cidades.
 *******************************************************************************/
-
-$cidades = ["Curitiba", "São Paulo", "Rio de Janeiro", "Londrina", "Joinville"];
-$cidade = "";
-
-foreach ($cidades as $cidade) {
-    echo $cidade . PHP_EOL;
-}
+    $cidades = ["Curitiba","São Paulo","Rio de Janeiro","Londrina","Joinvile"];
 ?>

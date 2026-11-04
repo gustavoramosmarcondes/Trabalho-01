@@ -27,4 +27,5 @@ function obterPrimeiroElemento($itens)
 
 $frutas = ["maçã", "banana", "laranja"];
 echo "Primeiro elemento: " . obterPrimeiroElemento($frutas) . PHP_EOL;
+// Resumo: Foi criada uma função que recebe um array e retorna o primeiro elemento, se existir.
 ?>

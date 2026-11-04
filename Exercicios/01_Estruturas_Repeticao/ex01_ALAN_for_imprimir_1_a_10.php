@@ -17,4 +17,5 @@
 for ($numero = 1; $numero <= 10; $numero++) {
     echo $numero . PHP_EOL;
 }
+// Resumo: Foi utilizada uma variável de controle e o laço for para imprimir os números de 1 a 10.
 ?>
